@@ -1,4 +1,16 @@
 Railbook::Application.routes.draw do
+  resources :authors
+
+
+  resources :fun_comments
+
+
+  resources :reviews
+
+
+  resources :users
+
+
   resources :books
 
 
